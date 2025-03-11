@@ -1,0 +1,63 @@
+
+
+.formBox{
+    border: 2px solid #ddd;
+    max-width: 1000px;
+}
+.uploadBox{
+    border: 1px solid #f1f1f1;
+}
+.btnComponent{
+    background-color: #7f7fe9;
+    color: white;
+    transition: 0.2s ease-in;
+}
+.serial{
+    background-color: #7f7fe9;
+    border-radius: 50%;
+    color: white;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+}
+.btnComponent:hover{
+    transform: scale(1.05);
+}
+.fs14{font-size: 14px}
+.fs18{
+    font-size: 18px
+}
+.text-red{
+    color: red;
+}
+.certificateLink{
+    text-decoration: underline;
+    font-size: 12px;
+    color: blue;
+}
+.listColor{
+    background-color: #f9f9f9;
+}
+.listDiv{
+    max-width: 1000px;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Dim background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }

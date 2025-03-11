@@ -23,8 +23,14 @@ const certificatesSlice = createSlice({
     addCertificate: (state, action: PayloadAction<Certificate>) => {
       state.certificates.push(action.payload);
     },
+    replaceFirstCertificate: (state, action: PayloadAction<Certificate>) => {
+      if (state.certificates.length > 0) {
+        state.certificates.shift(); // Remove the first certificate
+        state.certificates.push(action.payload); // Add the new one
+      }
+    },
   },
 });
 
-export const { addCertificate } = certificatesSlice.actions;
+export const { addCertificate, replaceFirstCertificate } = certificatesSlice.actions;
 export default certificatesSlice.reducer;
