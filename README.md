@@ -20,9 +20,9 @@ Make sure you have the following installed:
    ```sh
    git clone https://github.com/yourusername/your-repo-name.git  
    cd your-repo-name  
-2. **Install Dependencies**
+2. **Install Dependencies** <br />
 npm install
 
-2. **Run the Development Server**
-3. npm start
+2. **Run the Development Server** <br />
+  npm start
 
